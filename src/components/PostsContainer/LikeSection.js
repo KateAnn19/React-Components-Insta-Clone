@@ -3,7 +3,7 @@
 // HINT: You will need to add an onClick event pass through your props and update the hard coded Likes
 import React from "react";
 
-const LikeSection = ({moo, incrementLikes}) => {
+const LikeSection = ({likesVar, incrementLikes}) => {
   // console.log("This is the like section:",props);
   return (
     <div>
@@ -19,7 +19,7 @@ const LikeSection = ({moo, incrementLikes}) => {
       </div>
     </div>
     <p className="like-number">
-      {moo} likes</p> 
+      {likesVar} likes</p> 
 </div>
   )
 };
