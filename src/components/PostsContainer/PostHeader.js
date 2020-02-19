@@ -4,6 +4,7 @@ import React from "react";
 import "./Posts.css";
 
 const PostHeader = props => {
+  // console.log("This is post header", props)
   return (
     <div className="post-header">
       <div className="post-thumb-wrapper">
